@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-12T12:11:11 IST" name="Default suite" finished-at="2026-03-12T12:11:19 IST" duration-ms="7434">
+  <suite started-at="2026-03-12T12:33:37 IST" name="Default suite" finished-at="2026-03-12T12:33:45 IST" duration-ms="8070">
     <groups>
     </groups>
-    <test started-at="2026-03-12T12:11:11 IST" name="Default test" finished-at="2026-03-12T12:11:19 IST" duration-ms="7434">
+    <test started-at="2026-03-12T12:33:37 IST" name="Default test" finished-at="2026-03-12T12:33:45 IST" duration-ms="8070">
       <class name="tests.SauceDemoLoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceDemoLoginTest@24269709]" started-at="2026-03-12T12:11:11 IST" name="setup" finished-at="2026-03-12T12:11:15 IST" duration-ms="3793" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceDemoLoginTest@2cd76f31]" started-at="2026-03-12T12:33:37 IST" name="setup" finished-at="2026-03-12T12:33:42 IST" duration-ms="4648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:tests.SauceDemoLoginTest@24269709]" started-at="2026-03-12T12:11:15 IST" name="invalidLoginTest" finished-at="2026-03-12T12:11:16 IST" duration-ms="606" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:tests.SauceDemoLoginTest@2cd76f31]" started-at="2026-03-12T12:33:42 IST" name="invalidLoginTest" finished-at="2026-03-12T12:33:43 IST" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoLoginTest@24269709]" started-at="2026-03-12T12:11:16 IST" name="tearDown" finished-at="2026-03-12T12:11:16 IST" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoLoginTest@2cd76f31]" started-at="2026-03-12T12:33:43 IST" name="tearDown" finished-at="2026-03-12T12:33:43 IST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceDemoLoginTest@24269709]" started-at="2026-03-12T12:11:16 IST" name="setup" finished-at="2026-03-12T12:11:18 IST" duration-ms="1769" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceDemoLoginTest@2cd76f31]" started-at="2026-03-12T12:33:43 IST" name="setup" finished-at="2026-03-12T12:33:45 IST" duration-ms="1742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest()[pri:0, instance:tests.SauceDemoLoginTest@24269709]" started-at="2026-03-12T12:11:18 IST" name="validLoginTest" finished-at="2026-03-12T12:11:19 IST" duration-ms="658" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:tests.SauceDemoLoginTest@2cd76f31]" started-at="2026-03-12T12:33:45 IST" name="validLoginTest" finished-at="2026-03-12T12:33:45 IST" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoLoginTest@24269709]" started-at="2026-03-12T12:11:19 IST" name="tearDown" finished-at="2026-03-12T12:11:19 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoLoginTest@2cd76f31]" started-at="2026-03-12T12:33:45 IST" name="tearDown" finished-at="2026-03-12T12:33:45 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
