@@ -1,0 +1,17 @@
+<suite name="AutomationSuite">
+
+<listeners>
+<listener class-name="listeners.TestListener"/>
+</listeners>
+
+<test name="SauceDemoTests">
+
+<classes>
+
+<class name="tests.SauceDemoLoginTest"/>
+
+</classes>
+
+</test>
+
+</suite>
