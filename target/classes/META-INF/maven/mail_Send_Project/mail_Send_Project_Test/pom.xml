@@ -54,6 +54,12 @@
 			<version>2.21.1</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>2.0.13</version>
+		</dependency>
+
 		<!-- Java Mail -->
 		<dependency>
 			<groupId>com.sun.mail</groupId>
