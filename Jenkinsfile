@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/p-i-k-l-u/Send_Email.git'
+                git branch: 'main', url: 'https://github.com/p-i-k-l-u/Send_Email.git'
             }
         }
 
