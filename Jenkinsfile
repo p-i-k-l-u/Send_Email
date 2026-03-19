@@ -7,7 +7,7 @@ pipeline{
 	
 	tools{
 		maven 'Maven3'
-		jdk 'Java17'
+		jdk 'JDK17'
 	}
 	
 	stages{
@@ -28,7 +28,7 @@ pipeline{
 		}
 		stage('Archive Reports'){
 			steps{
-				archiveArtifacts arctifacts: 'test-output/**', fingerprint: true
+				archiveArtifacts artifacts: 'test-output/**', fingerprint: true
 			}
 		}
 	}
