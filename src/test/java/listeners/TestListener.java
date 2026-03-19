@@ -23,16 +23,30 @@ public class TestListener implements ITestListener {
 		skipped++;
 	}
 
+//	public void onFinish1(ITestContext context) {
+//
+//		int executed = passed + failed + skipped;
+//
+//		int planned = context.getAllTestMethods().length;
+//
+//		String html = HtmlTemplateBuilder.buildHtml(planned, executed, passed, failed, skipped);
+//
+//		EmailSender.sendEmail(html);
+//
+//	}
+	
 	public void onFinish(ITestContext context) {
 
-		int executed = passed + failed + skipped;
+	    System.out.println("Listener Triggered ✅");
 
-		int planned = context.getAllTestMethods().length;
+	    int executed = passed + failed + skipped;
+	    int planned = context.getAllTestMethods().length;
 
-		String html = HtmlTemplateBuilder.buildHtml(planned, executed, passed, failed, skipped);
+	    String html = HtmlTemplateBuilder.buildHtml(planned, executed, passed, failed, skipped);
 
-		EmailSender.sendEmail(html);
+	    System.out.println("Sending Email...");
 
+	    EmailSender.sendEmail(html);
 	}
 
 }
